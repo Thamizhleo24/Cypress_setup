@@ -14,5 +14,5 @@ const { remote } = require('webdriverio');
 
     await browser.saveScreenshot('./screenshot.png')
     await browser.deleteSession()
-    await browser.deleteSession()
+    
 })()
