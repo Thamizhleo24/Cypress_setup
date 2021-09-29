@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Flipkart shoe product search" timestamp="2021-09-25T20:05:39" time="0.283" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Flipkart shoe product search"/>
+      <property name="capabilities" value="chrome.93_0_4577_82.windows"/>
+      <property name="file" value=".\test\specs\shoeFlipkart.js"/>
+    </properties>
+    <testcase classname="chrome.93_0_4577_82.windows.Flipkart_shoe_product_search" name="should open the mail url and verify the title" time="0.127">
+      <system-out><![CDATA[
+COMMAND: POST /session/b8142b6392811cd8aa3f75929b48477d/window/maximize - {}
+COMMAND: GET /session/b8142b6392811cd8aa3f75929b48477d/title - {}
+COMMAND: POST /session/b8142b6392811cd8aa3f75929b48477d/element - {"using":"xpath","value":"//button[@class='_2KpZ6l _2doB4z']"}
+COMMAND: POST /session/b8142b6392811cd8aa3f75929b48477d/element - {"using":"xpath","value":"//div[text()='Fashion']"}
+COMMAND: POST /session/b8142b6392811cd8aa3f75929b48477d/element - {"using":"xpath","value":"//a[text()='Men Footwear']"}
+COMMAND: POST /session/b8142b6392811cd8aa3f75929b48477d/element - {"using":"xpath","value":"//a[text()='Men Footwear']"}
+COMMAND: POST /session/b8142b6392811cd8aa3f75929b48477d/element - {"using":"xpath","value":"//a[text()='All']"}
+COMMAND: POST /session/b8142b6392811cd8aa3f75929b48477d/element - {"using":"xpath","value":"//a[text()='All']"}
+COMMAND: POST /session/b8142b6392811cd8aa3f75929b48477d/element - {"using":"xpath","value":"//div[text()='Size - UK/India']"}
+COMMAND: POST /session/b8142b6392811cd8aa3f75929b48477d/element - {"using":"xpath","value":"//*[@id=\"container\"]/div/div[3]/div[1]/div[1]/div/div/div/section[2]/div[4]/div[3]/select"}
+COMMAND: POST /session/b8142b6392811cd8aa3f75929b48477d/element - {"using":"xpath","value":"//*[@id=\"container\"]/div/div[3]/div[1]/div[1]/div/div/div/section[2]/div[4]/div[3]/select"}
+COMMAND: GET /session/b8142b6392811cd8aa3f75929b48477d/screenshot - {}
+COMMAND: POST /session/b8142b6392811cd8aa3f75929b48477d/url - {"url":"https://www.flipkart.com/"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'products of')]"}
+COMMAND: DELETE /session/b8142b6392811cd8aa3f75929b48477d - {}
+RESULT: {"url":"https://www.flipkart.com/"}
+RESULT: {}
+RESULT: {}
+RESULT: {"using":"xpath","value":"//button[@class='_2KpZ6l _2doB4z']"}
+COMMAND: POST /session/b8142b6392811cd8aa3f75929b48477d/element/c1da42ac-59fd-4f23-8d22-9263187dac06/click - {}
+RESULT: {"using":"xpath","value":"//div[text()='Fashion']"}
+COMMAND: GET /session/b8142b6392811cd8aa3f75929b48477d/element/bed3351c-ee44-4306-917f-e4186390571b/rect - {}
+RESULT: {"using":"xpath","value":"//a[text()='Men Footwear']"}
+COMMAND: POST /session/b8142b6392811cd8aa3f75929b48477d/element - {"using":"xpath","value":"//a[text()='Men Footwear']"}
+RESULT: {"using":"xpath","value":"//a[text()='Men Footwear']"}
+COMMAND: POST /session/b8142b6392811cd8aa3f75929b48477d/elements - {"using":"xpath","value":"//a[text()='Men Footwear']"}
+RESULT: {"using":"xpath","value":"//a[text()='All']"}
+COMMAND: POST /session/b8142b6392811cd8aa3f75929b48477d/elements - {"using":"xpath","value":"//a[text()='All']"}
+RESULT: {"using":"xpath","value":"//a[text()='All']"}
+COMMAND: POST /session/b8142b6392811cd8aa3f75929b48477d/elements - {"using":"xpath","value":"//a[text()='All']"}
+RESULT: {"using":"xpath","value":"//div[text()='Size - UK/India']"}
+COMMAND: POST /session/b8142b6392811cd8aa3f75929b48477d/elements - {"using":"xpath","value":"//div[text()='Size - UK/India']"}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
