@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-import LoginPage from '../pageObject.js/loginFlip'
+import LoginPage from '../pageObject/loginFlip'
 
 describe('Login the Flipkart site using pageobject', () => 
 {
